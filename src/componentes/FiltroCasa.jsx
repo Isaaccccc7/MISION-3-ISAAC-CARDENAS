@@ -1,4 +1,4 @@
-// Desplegable controlado: su valor lo manda el estado del padre.
+
 export default function FiltroCasa({ casas, valor, onCambio }) {
   return (
     <label className="filtro">
