@@ -1,4 +1,3 @@
-// Pares [etiqueta, clave] para pintar los datos sin repetir una línea por campo.
 const DATOS = [
   ["Nacimiento", "nacimiento"],
   ["Fallecimiento", "fallecimiento"],
