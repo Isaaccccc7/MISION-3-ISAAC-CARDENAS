@@ -13,7 +13,8 @@ const promesa = obtenerPersonajes().then(
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Suspense fallback={<Estado>Cargando personajes…</Estado>}></Suspense>
+    <Suspense fallback={<Estado>Cargando personajes…</Estado>}>
     <App promesa={promesa} />
+    </Suspense>
   </StrictMode>
 );
