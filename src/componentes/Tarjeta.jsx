@@ -19,7 +19,6 @@ const DATOS = [
 
 export default function Tarjeta({ personaje }) {
   return (
-    // data-casa permite al CSS colorear el borde según la casa.
     <article className="tarjeta" data-casa={personaje.casa}>
       {personaje.imagen && (
         <img src={personaje.imagen} alt={personaje.nombre} loading="lazy" />
