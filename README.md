@@ -21,7 +21,7 @@ a React 19. Prompts reales que le hice:
 
 1. "¿Cómo dividirías los componentes de mi web en elementos React?". Me propuso separar la interfaz en Tarjeta, ListaPersonajes, FiltroCasa y Estado, y dejar la llamada a la API (api.js) y el filtrado (logica.js) como módulos aparte. Mantuve esa división. Más tarde, saqué por comodidad  saqué el título y el contador a un componente Cabecera.
  
-2. "¿Cuál sería la mejor forma de poner que estoy cargando los personajes, ya que con la promesa lo tengo que poner en el main?". Su primera propuesta cargaba los datos con useEffect y useState; decidí quitar el efecto (ya que el profesor dijo en clase que no es bueno el abuso de los hooks) y pedí otra solución, que fue usar el hook use con Suspense. Me explicó que la promesa tiene que crearse fuera del componente (en main.jsx) y que el Suspense debe estar en un componente padre del que llama a use. También me propuso convertir el error en datos para no necesitar un error boundary.
+2. "¿Cuál sería la mejor forma de poner que estoy cargando los personajes, ya que con la promesa lo tengo que poner en el main?". Su primera propuesta cargaba los datos con useEffect y useState; decidí quitar el efecto (ya que el profesor dijo en clase que no es bueno el abuso de los hooks) y pedí otra solución, que fue usar el hook use con Suspense. Me explicó que la promesa tiene que crearse fuera del componente (en main.jsx) y que el Suspense debe estar en un componente padre del que llama a use.
  
 3. "Ayuda sobre cómo mostrar los elementos HTML con el CSS". Me generó el style.css con la cabecera, el filtro, el contador, los mensajes de estado y una rejilla de tarjetas, muy básico para que yo más adelante lo pudiese adaptar a lo que quería.
 
